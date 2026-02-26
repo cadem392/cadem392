@@ -29,50 +29,6 @@
     <img alt="AI" src="https://img.shields.io/badge/Focus-AI%20%2B%20Math-9B59B6?style=for-the-badge" />
   </p>
 
-  <!-- Subtle hover animation on links via inline CSS -->
-  <style>
-    .pill {
-      display: inline-block;
-      padding: 10px 14px;
-      margin: 6px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.18);
-      background: rgba(255,255,255,0.03);
-      text-decoration: none;
-      transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
-    }
-    .pill:hover {
-      transform: translateY(-2px) scale(1.01);
-      background: rgba(47,129,247,0.10);
-      border-color: rgba(47,129,247,0.35);
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-      max-width: 980px;
-      margin: 0 auto;
-    }
-    @media (max-width: 720px) {
-      .grid { grid-template-columns: 1fr; }
-    }
-    .card {
-      border: 1px solid rgba(255,255,255,0.16);
-      border-radius: 16px;
-      padding: 16px;
-      background: rgba(255,255,255,0.02);
-      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
-    }
-    .card:hover {
-      transform: translateY(-3px);
-      border-color: rgba(155,89,182,0.35);
-      background: rgba(155,89,182,0.06);
-    }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .muted { opacity: 0.85; }
-    .small { font-size: 0.95rem; }
-  </style>
-
   <!-- Links -->
   <div style="height: 6px;"></div>
   <div>
@@ -102,7 +58,7 @@
       </p>
     </div>
 
-    <div class="card" align="left">
+  <div class="card" align="left">
       <h2 style="margin-top: 0;">⚙️ Focus Areas</h2>
       <p class="muted small" style="margin-bottom: 10px;">
         A few areas I like going deep on:
@@ -125,7 +81,7 @@
       Tools I reach for often:
     </p>
 
-    <p>
+  <p>
       <img alt="Python" src="https://img.shields.io/badge/Python-111?style=for-the-badge&logo=python" />
       <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-111?style=for-the-badge&logo=pytorch" />
       <img alt="NumPy" src="https://img.shields.io/badge/NumPy-111?style=for-the-badge&logo=numpy" />
@@ -135,7 +91,7 @@
       <img alt="Firebase" src="https://img.shields.io/badge/Firebase-111?style=for-the-badge&logo=firebase" />
     </p>
 
-    <p>
+  <p>
       <img alt="Git" src="https://img.shields.io/badge/Git-111?style=for-the-badge&logo=git" />
       <img alt="Linux" src="https://img.shields.io/badge/Linux-111?style=for-the-badge&logo=linux" />
       <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-111?style=for-the-badge&logo=c%2B%2B" />
@@ -143,45 +99,12 @@
     </p>
   </div>
 
-  <div style="height: 18px;"></div>
-
-  <!-- GitHub stats -->
-  <div class="grid">
-    <div class="card" align="center">
-      <h2 style="margin-top: 0;">📈 Stats</h2>
-      <img
-        src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&rank_icon=github"
-        alt="GitHub stats"
-      />
-    </div>
-
-    <div class="card" align="center">
-      <h2 style="margin-top: 0;">🔥 Streak</h2>
-      <img
-        src="https://streak-stats.demolab.com?user=YOUR_USERNAME&hide_border=true"
-        alt="GitHub streak"
-      />
-    </div>
-  </div>
-
-  <div style="height: 18px;"></div>
-
-  <!-- Activity graph -->
-  <div class="card" style="max-width: 980px;" align="center">
-    <h2 style="margin-top: 0;">🧩 Activity</h2>
-    <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&hide_border=true"
-      alt="Activity graph"
-    />
-  </div>
-
-  <div style="height: 18px;"></div>
 
   <!-- Featured projects (edit these) -->
   <div class="card" style="max-width: 980px;" align="left">
     <h2 style="margin-top: 0;">✨ Featured Work</h2>
 
-    <div class="grid">
+  <div class="grid">
       <div class="card" align="left">
         <h3 style="margin-top: 0;">📱 NuYu (iOS Productivity + AI)</h3>
         <p class="muted small">
@@ -192,7 +115,7 @@
         </p>
       </div>
 
-      <div class="card" align="left">
+  <div class="card" align="left">
         <h3 style="margin-top: 0;">📊 Quant Trading ML Project</h3>
         <p class="muted small">
           Research pipeline: data → signals → backtests → model evaluation with strong validation hygiene.
@@ -202,7 +125,7 @@
         </p>
       </div>
 
-      <div class="card" align="left">
+  <div class="card" align="left">
         <h3 style="margin-top: 0;">🎮 Game / Engine Experiments</h3>
         <p class="muted small">
           Systems + algorithms + rendering/UX experiments. I like building “small but real” engines.
@@ -212,7 +135,7 @@
         </p>
       </div>
 
-      <div class="card" align="left">
+  <div class="card" align="left">
         <h3 style="margin-top: 0;">🧮 Math + Proof Notes</h3>
         <p class="muted small">
           Real analysis & calculus with proofs—turning intuition into clean, checkable arguments.
