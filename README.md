@@ -8,7 +8,7 @@
   <!-- Top hero -->
   <h1 style="margin-bottom: 6px;">Hey, I’m Cade 👋</h1>
   <p style="margin-top: 0; max-width: 720px;">
-    UofT CS (AI + Math) • Building ambitious products • Quant/ML-curious • Game dev + systems-minded
+    UofT CS (AI + Math) • Building ambitious products • ML • Game dev + systems-minded
   </p>
 
   <!-- Typing animation (SVG service) -->
