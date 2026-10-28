@@ -32,10 +32,9 @@
   <!-- Links -->
   <div style="height: 6px;"></div>
   <div>
-    <a class="pill" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><b>LinkedIn</b> ↗</a>
-    <a class="pill" href="https://github.com/" target="_blank" rel="noreferrer"><b>Portfolio</b> ↗</a>
-    <a class="pill" href="mailto:YOUR_EMAIL_HERE"><b>Email</b> ✉️</a>
-    <a class="pill" href="https://github.com/YOUR_USERNAME?tab=repositories"><b>Projects</b> 🧪</a>
+    <a class="pill" href="https://www.linkedin.com/cademcnelly/" target="_blank" rel="noreferrer"><b>LinkedIn</b> ↗</a>
+    <a class="pill" href="https://cademcnelly.com/" target="_blank" rel="noreferrer"><b>Portfolio</b> ↗</a>
+    <a class="pill" href="mailto:cademcnelly@outlook.com"><b>Email</b> ✉️</a>
   </div>
 
   <div style="height: 18px;"></div>
@@ -64,9 +63,9 @@
         A few areas I like going deep on:
       </p>
       <ul class="small">
-        <li><b>ML Engineering:</b> training loops, evaluation, feature pipelines, experiment tracking</li>
+        <li><b>Machine Learning Engineering:</b> training loops, evaluation, feature pipelines, experiment tracking</li>
         <li><b>Quant/Finance:</b> signals, backtesting hygiene, robust validation, risk controls</li>
-        <li><b>Math:</b> real analysis intuition, linear algebra, probability foundations</li>
+        <li><b>Math and Stats:</b> real analysis intuition, linear algebra, probability foundations</li>
         <li><b>UI:</b> SwiftUI patterns, performance, “feels right” interactions</li>
       </ul>
     </div>
